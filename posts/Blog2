@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Entry</title>
+    <style>
+        body { background-color: #f5f5dc; color: #333; font-family: Arial; line-height: 1.6; padding: 20px; }
+        header { text-align: center; margin-bottom: 40px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Test Entry</h1>
+        <p>January 18, 2026</p>
+    </header>
+
+    <article>
+        <p>This is my Second blog post!</p>
+    </article>
+
+    <footer>
+        <p><a href="../index.html">← Back</a></p>
+    </footer>
+</body>
+</html>
