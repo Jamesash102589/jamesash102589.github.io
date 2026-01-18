@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me - Schizo Blogs</title>
     <style>
-        body {
-            background-color: #f5f5dc; /* Beige background */
-            color: #333; /* Dark text for readability */
-            font-family: Arial, sans-serif; /* Simple font */
-            padding: 20px;
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
+
+       body {
+        background-image: url('images/blackrose.jpg'); /* path to your image */
+        background-size: cover;        /* make it fill the screen */
+        background-position: center;   /* center the image */
+        background-repeat: no-repeat;  /* don’t tile it */
+        color: #f8f8ff;                   /* optional: text color if image is dark */
+}
+
 
         header {
             text-align: center;
@@ -19,14 +28,7 @@
 
         h1 {
             font-size: 2.5rem;
-            color: #444;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 1rem;
-            color: #777;
+            color: #f8f8ff;
         }
 
         nav {
@@ -35,7 +37,7 @@
         }
 
         nav a {
-            color: #333;
+            color: #f8f8ff;
             text-decoration: none;
             margin: 0 15px;
             font-size: 1.2rem;
@@ -43,6 +45,13 @@
 
         nav a:hover {
             color: #007bff;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1rem;
+            color: #777;
         }
     </style>
 </head>
@@ -67,6 +76,7 @@
     </footer>
 </body>
 </html>
+
 
 
 
